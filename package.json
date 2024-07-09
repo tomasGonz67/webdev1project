@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/tomasGonz67/webdev1project/issues"
   },
-  "homepage": "https://github.com/tomasGonz67/webdev1project#readme"
+  "homepage": "https://github.com/tomasGonz67/webdev1project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  }
 }
