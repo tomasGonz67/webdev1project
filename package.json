@@ -1,0 +1,24 @@
+{
+  "name": "webdev1project",
+  "version": "1.0.0",
+  "description": "individual project for class with node playwright git",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomasGonz67/webdev1project.git"
+  },
+  "keywords": [
+    "example",
+    "student",
+    "project"
+  ],
+  "author": "Tomas Gonzalez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomasGonz67/webdev1project/issues"
+  },
+  "homepage": "https://github.com/tomasGonz67/webdev1project#readme"
+}
