@@ -49,3 +49,11 @@ a {
     text-decoration: none;
     padding: 0.618em 1em; /* Padding following the golden ratio */
 }
+
+/* Styling for social links and applying the golden ratio for width */
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 38.2%; /* Width following the golden ratio */
+    margin: 0 auto;
+}
