@@ -43,3 +43,9 @@ h3 {
 header, main, footer {
     padding: 1.618% 2.618%; /* Padding following the golden ratio */
 }
+
+a {
+    color: #7B6F63;
+    text-decoration: none;
+    padding: 0.618em 1em; /* Padding following the golden ratio */
+}
