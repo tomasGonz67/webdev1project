@@ -1,3 +1,9 @@
-﻿body
-{
+﻿body {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    /*background-image: url('images/resBack.jpg');
+    background-size: cover;*/
+    color: #222344;
+    font-size: 16px; /* Base font size */
+    line-height: 1.618; /* Line height following the golden ratio */
 }
