@@ -57,3 +57,21 @@ a {
     width: 38.2%; /* Width following the golden ratio */
     margin: 0 auto;
 }
+
+header {
+    font-family: 'Outfit';
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    line-height: var(--line-h);
+}
+
+.header, ul {
+    list-style: none;
+    display: flex; /* Display list items in a row */
+    gap: 5rem;
+    justify-content: flex-end;
+}
