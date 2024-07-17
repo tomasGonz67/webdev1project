@@ -16,15 +16,15 @@
         <nav>
 
             <ul>
-                <li>About</li>
-                <li>My Works</li>
-                <li>Articles</li>
-                <li>Contact Me</li>
+                <li><a href="#hero">Hero</a></li>
+                <li><a href="#MyWorks">My Works</a></li>
+                <li><a href="#articles">Articles</a></li>
+                <li><a href="#contact-container">Contact Me</a></li>
             </ul>
         </nav>
     </header>
 
-    <div class="hero">
+    <div id="hero" class="hero">
         <div class="heroOne">
             <h1>I am Tomas Gonzalez</h1>
             <h3>
@@ -33,7 +33,9 @@
             </h3>
             <div class="heroTwoWidth">
                 <div>
-                    <h2 class="viewButton">Contact Me</h2>
+
+                    <h2 id="contact-me-button" class="viewButton">Contact Me</h2>
+
                 </div>
 
             </div>
@@ -42,7 +44,7 @@
     </div>
 
 
-    <div class="MyWorks">
+    <div id="MyWorks" class="MyWorks">
         <h3>My Works</h3>
         <p>Some of my personal projects</p>
 
@@ -74,7 +76,7 @@
         </div>
     </div>
 
-    <div class="articles">
+    <div id="articles" class="articles">
         <h3>My Articles</h3>
         <p>Some of my personal written papers.</p>
         <div class="Squares">
@@ -98,7 +100,7 @@
     </div>
 
 
-    <div class="contact-container">
+    <div id="contact-container" class="contact-container">
         <h1>Contact Me</h1>
         <form action="/submit_contact" method="post">
             <h3>Enter Your Email:</h3>
@@ -109,19 +111,23 @@
 
     <footer>
         <div class="contact-icons">
-            <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+            <a href="https://github.com/tomasGonz67" target="_blank" aria-label="GitHub">
                 <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/tomas-gonzalez-4aa6372b0/" target="_blank" aria-label="LinkedIn">
                 <i class="fab fa-linkedin"></i>
             </a>
-            <a href="mailto:youremail@example.com" aria-label="Email">
+            <a href="mailto:tpg3@njit.edu" aria-label="Email">
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
 
 
     </footer>
+
+    <script>document.getElementById('contact-me-button').addEventListener('click', function() {
+    document.getElementById('contact-container').scrollIntoView({ behavior: 'smooth' });
+        });</script>    
 
 </body>
 </html>
