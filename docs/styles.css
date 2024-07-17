@@ -134,6 +134,15 @@ header {
     background-color: #181717;
 }
 
+.articles {
+    display: flex;
+    flex-direction: column;
+}
+
+    .articles h2 {
+        color: #1E1E1E;
+    }
+
 .squareImg{
     width:100%;
 }
@@ -165,4 +174,7 @@ header {
     padding-top: 20px;
     border-radius: 20px;
     line-height:20px;
+    border-style:solid;
+    border-color:white;
+    border-width:1px;
 }
