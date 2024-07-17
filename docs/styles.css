@@ -127,3 +127,42 @@ header {
     letter-spacing: 0.1em;
     font-family: "outfit";
 }
+
+.MyWorks {
+    display: flex;
+    flex-direction: column;
+    background-color: #181717;
+}
+
+.squareImg{
+    width:100%;
+}
+
+.Squares{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+
+.MyWorks h2 {
+    color: #1E1E1E;
+}
+
+.Squares p {
+    color: #1E1E1E;
+}
+
+.sqaure-container {
+    background-color: #757575;
+    position: relative; /* This is necessary for absolute positioning of the circle */
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Aligns the boxes vertically */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 20px;
+    line-height:20px;
+}
