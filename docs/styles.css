@@ -122,11 +122,6 @@ header {
     align-items: center; /* Center text vertically */
     background-color: #8C8CDA;
     text-align: center;
-    font-size: 20px;
-    line-height: 27.5;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    font-family: "outfit";
 }
 
 .MyWorks {
