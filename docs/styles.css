@@ -83,3 +83,16 @@ header {
     gap: 5rem;
     justify-content: flex-end;
 }
+
+.hero {
+    margin-top: 4rem;
+    width: 800px;
+    height: 463px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pic{
+    height:117px;
+    width:132px;
+}
