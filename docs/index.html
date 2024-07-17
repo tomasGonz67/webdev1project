@@ -41,8 +41,8 @@
 
 
     <div class="MyWorks">
-            <h3>My Works</h3>
-            <p>Some of my personal projects</p>
+        <h3>My Works</h3>
+        <p>Some of my personal projects</p>
 
         <div class="Squares">
             <div class="sqaure-container">
@@ -54,7 +54,7 @@
             </div>
 
             <div class="sqaure-container">
-                    <img class="squareImg" src="images/gogShot.png" alt="Image 1">
+                <img class="squareImg" src="images/gogShot.png" alt="Image 1">
 
                 <h2>Online Card Game</h2>
                 <p>A real time multiplayer card game that uses socket.io and Node.js to provide real time gaming with friends.</p>
@@ -62,7 +62,7 @@
             </div>
 
             <div class="sqaure-container">
-                    <img  class="squareImg" src="images/covidShot.png" alt="Image 1">
+                <img class="squareImg" src="images/covidShot.png" alt="Image 1">
 
                 <h2>Covid Tracker</h2>
                 <p>A Covid Tracker that uses a JSON API to get real word data regarding Covid cases world wide. It tracks the cases in real time.</p>
@@ -96,10 +96,13 @@
     </div>
 
 
-    <div class="ContactMe">
+    <div class="contact-container">
         <h1>Contact Me</h1>
-        <div class="blackButton">GET STARTED</div>
-        <input type="text" id="textbox" name="textbox" placeholder="Type your name here">
+        <form action="/submit_contact" method="post">
+            <h3>Enter Your Email:</h3>
+            <input type="email" id="email" name="email" placeholder="your-email@example.com" required>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 
     <footer>
