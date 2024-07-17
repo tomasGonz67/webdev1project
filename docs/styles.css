@@ -52,9 +52,10 @@ li{
 
 }
 
-header, main, footer {
+header, main {
     padding: 1.618% 2.618%; /* Padding following the golden ratio */
 }
+
 
 a {
     color: #7B6F63;
@@ -220,4 +221,21 @@ header {
 
         .contact-container input[type="submit"]:hover {
             background-color: #218838;
+        }
+
+
+.contact-icons {
+    display: flex;
+    justify-content: start;
+
+}
+
+    .contact-icons a {
+        color: white;
+        font-size: 50px;
+        text-decoration: none;
+    }
+
+        .contact-icons a:hover {
+            color: #0073b1; /* LinkedIn color as an example for hover effect */
         }
