@@ -35,6 +35,10 @@ p {
     color: white;
 }
 
+li{
+    color:white;
+}
+
 /* Setting properties of the container and applying the golden ratio for width and padding */
 .container {
     width: 61.8%; /* Width following the golden ratio */
