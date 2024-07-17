@@ -1,6 +1,4 @@
-﻿
-
-body {
+﻿body {
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     color: #222344;
@@ -9,7 +7,7 @@ body {
 }
 
 h1 {
-    color:white;
+    color: white;
     font-size: 2.618em; /* Font size following the golden ratio */
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
@@ -35,27 +33,25 @@ p {
     color: white;
 }
 
-li{
-    color:white;
+li {
+    color: white;
 }
 
-/* Setting properties of the container and applying the golden ratio for width and padding */
+/* Container styles */
 .container {
-    width: 61.8%; /* Width following the golden ratio */
-    max-width: 1600px; /* Max-width for larger screens */
+    width: 90%; /* Adjusted for smaller screens */
+    max-width: 1200px; /* Max-width for larger screens */
     margin: 0 auto;
     background-color: #1e1e1e;
     padding: 1.618% 2.618%; /* Padding following the golden ratio */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin-top: 40px;
     margin-bottom: 40px;
-
 }
 
 header, main {
     padding: 1.618% 2.618%; /* Padding following the golden ratio */
 }
-
 
 a {
     color: #7B6F63;
@@ -63,7 +59,6 @@ a {
     padding: 0.618em 1em; /* Padding following the golden ratio */
 }
 
-/* Styling for social links and applying the golden ratio for width */
 .social-links {
     display: flex;
     justify-content: space-between;
@@ -85,36 +80,37 @@ header {
 .header, ul {
     list-style: none;
     display: flex; /* Display list items in a row */
-    gap: 5rem;
+    gap: 1rem; /* Reduced gap for smaller screens */
     justify-content: flex-end;
 }
 
 .hero {
     width: 100%; /* Width following the golden ratio */
     display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-    
+    flex-direction: column; /* Changed to column for smaller screens */
+    align-items: center;
+    text-align: center; /* Centered text for smaller screens */
+    gap: 1rem; /* Added gap between elements */
 }
 
-.heroOne{
-    width:50%;
-    padding-top:4rem;
+.heroOne {
+    width: 100%;
+    padding-top: 2rem; /* Reduced padding for smaller screens */
 }
 
 .jomas {
-    width: 40%;
+    width: 80%; /* Adjusted width for smaller screens */
 }
 
-.pic{
-    height:117px;
-    width:132px;
+.pic {
+    height: 117px;
+    width: 132px;
 }
 
 .viewButton {
     width: 300px;
     height: 60px;
-    border: 2px, solid;
+    border: 2px solid;
     border-radius: 78px;
     text-align: center;
     display: flex;
@@ -125,7 +121,7 @@ header {
 }
 
 .MyWorks {
-    margin-top:2rem;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
 }
@@ -134,24 +130,22 @@ header {
     display: flex;
     flex-direction: column;
     margin-top: 2rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
 }
 
     .articles h2 {
         color: #1E1E1E;
     }
 
-.squareImg{
-    width:100%;
+.squareImg {
+    width: 100%;
 }
 
-.Squares{
+.Squares {
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    flex-direction: column; /* Changed to column for smaller screens */
+    gap: 1rem; /* Added gap between elements */
 }
-
-
 
 .MyWorks h2 {
     color: #1E1E1E;
@@ -167,19 +161,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: start; /* Aligns the boxes vertically */
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
+    padding: 1rem; /* Adjusted padding for smaller screens */
     border-radius: 20px;
-    line-height:20px;
-    border-style:solid;
-    border-color:white;
-    border-width:1px;
+    line-height: 1.5; /* Adjusted line height */
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
 }
 
 .contact-container {
     margin: auto;
-    padding: 20px;
+    padding: 1rem; /* Adjusted padding for smaller screens */
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -187,51 +179,133 @@ header {
 
     .contact-container h2 {
         text-align: center;
-        margin-bottom: 20px;
+        margin-bottom: 1rem; /* Adjusted margin for smaller screens */
     }
 
     .contact-container label {
         display: block;
-        margin-bottom: 5px;
+        margin-bottom: 0.5rem; /* Adjusted margin for smaller screens */
         font-weight: bold;
     }
 
     .contact-container input[type="email"] {
         width: 100%;
-        padding: 10px;
-        margin-bottom: 20px;
+        padding: 0.5rem; /* Adjusted padding for smaller screens */
+        margin-bottom: 1rem; /* Adjusted margin for smaller screens */
         border: 1px solid #ccc;
         border-radius: 4px;
     }
 
     .contact-container input[type="submit"] {
         width: 100%;
-        padding: 10px;
+        padding: 0.5rem; /* Adjusted padding for smaller screens */
         background-color: #8C8CDA;
         color: white;
         border: none;
         border-radius: 4px;
         cursor: pointer;
-        font-size: 16px;
+        font-size: 1rem; /* Adjusted font size for smaller screens */
     }
 
         .contact-container input[type="submit"]:hover {
             background-color: #218838;
         }
 
-
 .contact-icons {
     display: flex;
-    justify-content: start;
-
+    justify-content: center; /* Centered icons for smaller screens */
+    gap: 1rem; /* Added gap between icons */
 }
 
     .contact-icons a {
         color: white;
-        font-size: 50px;
+        font-size: 2rem; /* Adjusted font size for smaller screens */
         text-decoration: none;
     }
 
         .contact-icons a:hover {
             color: #0073b1; /* LinkedIn color as an example for hover effect */
         }
+
+/* Media queries for responsive design */
+
+@media (min-width: 768px) {
+    /* Styles for iPad and larger tablets */
+
+    .hero {
+        flex-direction: row; /* Changed to row for larger screens */
+        text-align: left; /* Left-aligned text for larger screens */
+    }
+
+    .heroOne {
+        width: 50%; /* Adjusted width for larger screens */
+        padding-top: 4rem; /* Original padding for larger screens */
+    }
+
+    .jomas {
+        width: 40%; /* Adjusted width for larger screens */
+    }
+
+    .Squares {
+        flex-direction: row; /* Changed to row for larger screens */
+        gap: 2rem; /* Added gap between elements */
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for iPad and smaller devices */
+
+    .header ul {
+        flex-direction: column; /* Changed to column for smaller screens */
+        gap: 0.5rem; /* Reduced gap for smaller screens */
+    }
+
+    .hero {
+        flex-direction: column; /* Changed to column for smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroOne {
+        width: 100%; /* Full width for smaller screens */
+        padding-top: 2rem; /* Reduced padding for smaller screens */
+    }
+
+    .jomas {
+        width: 80%; /* Adjusted width for smaller screens */
+    }
+
+    .Squares {
+        flex-direction: column; /* Changed to column for smaller screens */
+        gap: 1rem; /* Added gap between elements */
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for iPhone and smaller devices */
+
+    .header ul {
+        flex-direction: column; /* Changed to column for smaller screens */
+        gap: 0.5rem; /* Reduced gap for smaller screens */
+    }
+
+    .hero {
+        flex-direction: column; /* Changed to column for smaller screens */
+        align-items: center;
+        text-align: center;
+    }
+
+    .heroOne {
+        width: 100%; /* Full width for smaller screens */
+        padding-top: 1rem; /* Further reduced padding for smaller screens */
+    }
+
+    .jomas {
+        width: 90%; /* Adjusted width for smaller screens */
+    }
+
+    .Squares {
+        flex-direction: column; /* Changed to column for smaller screens */
+        gap: 1rem; /* Added gap between elements */
+    }
+}
