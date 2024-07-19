@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/tomasGonz67/webdev1project#readme",
   "devDependencies": {
-    "@playwright/test": "^1.45.1",
+    "@playwright/test": "^1.45.2",
     "@types/node": "^20.14.10"
   }
 }
